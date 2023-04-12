@@ -1,0 +1,17 @@
+{
+    "restoreTerminals.terminals": [
+        {
+        "name": "posts",
+        "commands": []
+        },
+        {
+        "name": "client",
+        "commands": []
+        },
+        {
+        "name": "comments",
+        "commands": []
+        }
+    ],
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}

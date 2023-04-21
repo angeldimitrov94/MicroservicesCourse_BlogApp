@@ -51,8 +51,6 @@ app.listen(4002, async () => {
 
     const res = await axios.get('http://event-bus-srv:4005/events');
 
-    console.log(res);
-
     for(let event of res.data){
         console.log(`Handling event : ${event.type}`);
         handleEvent(event.type, event.data)

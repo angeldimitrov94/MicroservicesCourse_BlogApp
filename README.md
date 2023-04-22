@@ -1,12 +1,12 @@
 # MicroservicesWithNodeJSMongoReact
 
-##Summary
+## Summary
 A basic 'blog-style' application that allows a user to do the following tasks : 
 - create a text post
 - create a comment on an existing post
   - moderation of comments is possible based on an exclusion filter (list of strings)
 
-##Tech stack 
+## Tech stack 
 - Front end : 
   - React
 - Back end : 
@@ -20,7 +20,7 @@ A basic 'blog-style' application that allows a user to do the following tasks :
   - Docker
   - Kubernetes
 
-##Architecture
+## Architecture
 The application uses a simple microservice architecture, where each service performs a discrete function and allows for a certain degree of fault tolerance and resiliance. The services are as follows : 
 - client
   - the React application itself
